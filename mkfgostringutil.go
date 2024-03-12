@@ -1,4 +1,4 @@
-package mfstringutil
+package mkfgostrings
 
 import (
 	"fmt"

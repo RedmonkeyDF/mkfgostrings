@@ -1,4 +1,4 @@
-package mfstringutil
+package mkfgostrings
 
 import (
 	"fmt"
@@ -9,7 +9,6 @@ import (
 func TestFormatDuration(t *testing.T) {
 
 	type TestObj struct {
-
 		duration time.Duration
 		expected string
 	}
@@ -37,6 +36,5 @@ func TestFormatDuration(t *testing.T) {
 			}
 		})
 	}
-
 
 }
